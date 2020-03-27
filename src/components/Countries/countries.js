@@ -16,7 +16,6 @@ const Countries = () => {
                     className="btn form-control-sm"
                     onChange={e => {
                         setCountry(e.target.value);
-                        console.log(country);
                     }}
                 >
                     {countries.map(i => (
