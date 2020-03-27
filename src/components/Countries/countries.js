@@ -30,7 +30,7 @@ const Countries = () => {
                 <p className="h5" style={{'marginTop': '2em', 'color': '#3282b8'}}>Please choose a country from the list</p>
             ) : (
                 <News
-                    url={`https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${API_KEY}`}
+                    url={`http://newsapi.org/v2/top-headlines?country=${country}&apiKey=${API_KEY}`}
                 />
             )}
         </div>
